@@ -7,9 +7,13 @@ In order to do this, I created a initial class Layer. This holds the majority of
 
 # Layer Object
 The Layer object has these properties:
+
   -A double array that holds the values of the data
+  
   -An integer that denotes the next layer
+  
   -A double array that holds the weights between the instance called and the next layer
+  
   -A double array that will hold the activations upon calculation.
  
 There are two constructors.
