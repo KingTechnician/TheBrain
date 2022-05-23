@@ -44,6 +44,21 @@ The OutputLayer object is unique in that it does not require any calculations, s
 
 The OutputLayer object has a constructor for setting the size of the output layer, along with setting the values if and only if the pre-established size matches the values being set. It also applies the sigmoid function one more time, and has a toString method.
 
+# Network
+The Network object is what brings all of the objects together.
+
+Its properties:
+
+  -An InputLayer for the input layer
+
+  -A HiddenLayer array for each hidden layer the user decides to make
+    
+   -An OutputLayer for the output layer
+
+Primarily, its constructor is an array indicating each and every layer.
+
+  -Example: An array [2,5,3,1] creates an ANN with 4 layers, an input layer of 2 neurons, a first hidden layer of 5 neurons, a second hidden layer of 3 neurons, and an output layer of 1 neuron.
+  
 # Next steps?
 
 I have yet to create a cost function, back propagation or train method, which will be my next steps. I also would like a cohesive way of saving trained weights. 
